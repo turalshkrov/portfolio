@@ -1,0 +1,21 @@
+header {
+  font-family: 'Poppins', sans-serif;
+
+}
+.navbar-brand {
+  font-weight: 100;
+  color: #FFF;
+}
+.dropdown-menu {
+  background: transparent;
+  width: min-content;
+  border: none;
+}
+.dropdown-item {
+  width: min-content;
+  opacity: 0.75;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  background-color: transparent;
+  opacity: 1;
+}
