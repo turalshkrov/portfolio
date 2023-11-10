@@ -1,21 +1,23 @@
-header {
+body {
   font-family: 'Poppins', sans-serif;
-
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #09090a;
 }
 .navbar-brand {
   font-weight: 100;
   color: #FFF;
+  font-size: 2rem;
 }
-.dropdown-menu {
-  background: transparent;
-  width: min-content;
-  border: none;
+.offcanvas {
+  background: #09090a;
 }
-.dropdown-item {
-  width: min-content;
-  opacity: 0.75;
-}
-.dropdown-item:hover, .dropdown-item:focus {
-  background-color: transparent;
-  opacity: 1;
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
 }
