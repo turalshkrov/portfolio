@@ -1,0 +1,36 @@
+{
+  "tools": [
+    {
+      "title": "HTML5",
+      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
+    },
+    {
+      "title": "CSS3",
+      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+    },
+    {
+      "title": "Bootstrap",
+      "img-url": "https://i.ibb.co/pbFTLHH/bootstrap-logo.png"
+    },
+    {
+      "title": "Figma",
+      "img-url": "https://i.pinimg.com/736x/66/8c/cc/668cccb3f734f342e07c0185e6d9a975.jpg"
+    },
+    {
+      "title": "JavaScript",
+      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png"
+    },
+    {
+      "title": "TypeScript",
+      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201"
+    },
+    {
+      "title": "React",
+      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"
+    },
+    {
+      "title": "Vite",
+      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png"
+    }
+  ]
+}

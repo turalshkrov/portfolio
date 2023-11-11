@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <Container className='container-mt'>
+      <Container>
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/projects' element={<Projects />}/>

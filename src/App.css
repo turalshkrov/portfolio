@@ -2,10 +2,25 @@
 
 body {
   background-color: #09090C;
-}
-body {
+  font-family: 'Poppins', sans-serif;
   color: #CCC;
 }
-.container-mt {
-  margin-top: 5rem;
+section, main {
+  padding: 2rem 0;
+}
+.section-title {
+  margin-bottom: 5rem;
+}
+.section-title h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 768px) {
+  .section-title {
+    margin-bottom: 3rem;
+  }
+  .section-title h2 {
+    font-size: 2rem;
+  }
 }

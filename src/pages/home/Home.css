@@ -1,3 +1,7 @@
+.mh-100 {
+  min-height: 100vh;
+  padding-top: 3rem;
+}
 .greeting {
   font-weight: 700;
   font-size: 3.5rem;
@@ -9,7 +13,20 @@
   line-height: 1.5rem;
   letter-spacing: 1px;
 }
+.tool-item {
+  width: 22%;
+}
+.tool-item img {
+  width: 30%;
+  border-radius: 15px;
+}
+
+
 @media only screen and (max-width: 768px) {
+  .mh-100 {
+    min-height: 70vh;
+    padding-top: 4rem;
+  }
   .greeting {
     font-size: 2.5rem;
   }
@@ -17,5 +34,15 @@
     width: 100%;
     font-size: 1rem;
     letter-spacing: normal;
+  }
+  .tool-item {
+    width: 25%;
+  }
+  .tool-item p{
+    font-size: .75rem;
+  }
+  .tool-item img {
+    width: 60%;
+    border-radius: 10px;
   }
 }
