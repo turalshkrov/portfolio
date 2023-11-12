@@ -2,35 +2,35 @@
   "tools": [
     {
       "title": "HTML5",
-      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2048px-HTML5_Badge.svg.png"
+      "img-url": "https://i.ibb.co/dKYWcP0/HTML5-Badge-svg.png"
     },
     {
       "title": "CSS3",
-      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/2048px-CSS3_logo.svg.png"
+      "img-url": "https://i.ibb.co/ThKxbJk/CSS3-logo-svg.png"
     },
     {
       "title": "Bootstrap",
-      "img-url": "https://i.ibb.co/pbFTLHH/bootstrap-logo.png"
+      "img-url": "https://i.ibb.co/mNw8JW3/bootstrap-logo.png"
     },
     {
       "title": "Figma",
-      "img-url": "https://i.pinimg.com/736x/66/8c/cc/668cccb3f734f342e07c0185e6d9a975.jpg"
+      "img-url": "https://i.ibb.co/yWBSdmq/668cccb3f734f342e07c0185e6d9a975.jpg"
     },
     {
       "title": "JavaScript",
-      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png"
+      "img-url": "https://i.ibb.co/KmqKtxy/Java-Script-logo.png"
     },
     {
       "title": "TypeScript",
-      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/512px-Typescript_logo_2020.svg.png?20221110153201"
+      "img-url": "https://i.ibb.co/Nn30rb6/Typescript-logo.png"
     },
     {
       "title": "React",
-      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"
+      "img-url": "https://i.ibb.co/myCG2Hn/React.png"
     },
     {
       "title": "Vite",
-      "img-url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/1039px-Vitejs-logo.svg.png"
+      "img-url": "https://i.ibb.co/x1kWsF0/Vitejs-logo.png"
     }
   ]
 }

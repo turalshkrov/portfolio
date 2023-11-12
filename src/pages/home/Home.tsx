@@ -1,5 +1,11 @@
-import tools from '../../data/tools.json'
+import toolsData from '../../data/tools.json'
 import './Home.css'
+
+type ToolObject = {
+  title: string,
+  ['img-url']: string
+}
+const tools: ToolObject[] = toolsData.tools
 
 export default function Home() {
   return (
@@ -21,7 +27,7 @@ export default function Home() {
         </div>
         <div className="tools d-flex justify-content-center flex-wrap">
           {
-            tools.tools.map((tool) => {
+            tools.map((tool) => {
               return(
                 <div className='tool-item d-flex flex-column align-items-center justify-content-end mb-5' key={tool.title}>
                   <img src={tool['img-url']}/>
@@ -30,6 +36,11 @@ export default function Home() {
               )
             })
           }
+        </div>
+      </section>
+      <section className="projects">
+        <div className="section-title">
+          <h2>Projects</h2>
         </div>
       </section>
     </div>
