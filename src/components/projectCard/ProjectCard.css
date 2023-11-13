@@ -1,0 +1,33 @@
+.project-card {
+  width: 30%;
+  border: none !important;
+  overflow: hidden;
+}
+.project-card-img {
+  overflow: hidden;
+}
+.project-card img {
+  transition: .3s;
+}
+.project-card img:hover {
+  transform: scale(1.1);
+}
+.project-card a{
+  text-decoration: none;
+}
+.project-card a:hover{
+  text-decoration: underline;
+}
+.card-title a{
+  color: #FFF;
+}
+.card-text a {
+  color: #AAA;
+  font-size: .85rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .project-card {
+    width: 90%;
+  }
+}

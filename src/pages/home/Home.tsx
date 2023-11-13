@@ -1,3 +1,4 @@
+import ProjectCard from '../../components/projectCard/ProjectCard'
 import toolsData from '../../data/tools.json'
 import './Home.css'
 
@@ -6,6 +7,13 @@ type ToolObject = {
   ['img-url']: string
 }
 const tools: ToolObject[] = toolsData.tools
+
+const project = {
+  title: "JS Calculator",
+  ['site-url']: 'https://shkrov-js-calculator.netlify.app/',
+  ['repo-url']: 'https://github.com/turalshkrov/JavaScript-calculator',
+  ['img-url']: 'https://s3-alpha.figma.com/hub/file/1306859477/6044dae3-ab28-459e-b50e-6195c8a2039c-cover.png'
+}
 
 export default function Home() {
   return (
@@ -41,6 +49,9 @@ export default function Home() {
       <section className="projects">
         <div className="section-title">
           <h2>Projects</h2>
+        </div>
+        <div className="projects d-flex justify-content-center">
+          <ProjectCard project={project}/>
         </div>
       </section>
     </div>
