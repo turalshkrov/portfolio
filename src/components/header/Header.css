@@ -3,6 +3,7 @@
   width: 100%;
   top: 0;
   background-color: #09090a;
+  z-index: 3;
 }
 .navbar-brand {
   font-weight: 100;

@@ -1,13 +1,21 @@
 import ProjectCard from '../../components/projectCard/ProjectCard'
 import toolsData from '../../data/tools.json'
+import projectsData from '../../data/projects.json'
 import './Home.css'
 
-type ToolObject = {
+type ToolType = {
   title: string,
   ['img-url']: string
 }
-const tools: ToolObject[] = toolsData.tools
+const tools: ToolType[] = toolsData.tools
 
+type ProjectType = {
+  title: string,
+  ['site-url']: string,
+  ['repo-url']: string,
+  ['img-url']: string
+}
+const projects: ProjectType[] = projectsData.projects
 const project = {
   title: "JS Calculator",
   ['site-url']: 'https://shkrov-js-calculator.netlify.app/',
@@ -50,8 +58,14 @@ export default function Home() {
         <div className="section-title">
           <h2>Projects</h2>
         </div>
-        <div className="projects d-flex justify-content-center">
-          <ProjectCard project={project}/>
+        <div className="projects d-flex justify-content-center justify-content-md-between">
+          {
+            projects.map(project => {
+              return(
+                <ProjectCard project={project} key={project['repo-url']}/>
+              )
+            })
+          }
         </div>
       </section>
     </div>

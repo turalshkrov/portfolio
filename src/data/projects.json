@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "JS Calculator",
+      "site-url": "https://shkrov-js-calculator.netlify.app/",
+      "repo-url": "https://github.com/turalshkrov/JavaScript-calculator",
+      "img-url": "https://s3-alpha.figma.com/hub/file/1306859477/6044dae3-ab28-459e-b50e-6195c8a2039c-cover.png"
+    },
+    {
+      "title": "Recipe App",
+      "site-url": "https://react-recipe-db.netlify.app/",
+      "repo-url": "https://github.com/turalshkrov/react-recipes-app",
+      "img-url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/07/recipe-app-on-an-iphone-next-to-food.jpg"
+    },
+    {
+      "title": "React Movie App",
+      "site-url": "https://omdb-movie-react.netlify.app/",
+      "repo-url": "https://github.com/turalshkrov/react-movie-app",
+      "img-url": "https://i.ibb.co/rbpXwyQ/Capture.png"
+    }
+  ]
+}
