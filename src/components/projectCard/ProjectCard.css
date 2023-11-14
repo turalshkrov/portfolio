@@ -1,33 +1,43 @@
 .project-card {
-  width: 30%;
   border: none !important;
   overflow: hidden;
 }
 .project-card-img {
   overflow: hidden;
 }
-.project-card img {
-  transition: .3s;
-}
-.project-card img:hover {
-  transform: scale(1.1);
-}
 .project-card a{
   text-decoration: none;
 }
-.project-card a:hover{
-  text-decoration: underline;
-}
-.card-title a{
+.card-title-link{
   color: #FFF;
+  display: block;
+  width: fit-content;
 }
-.card-text a {
+.card-title-link:after{
+  display:block;
+  content: '';
+  border-bottom: solid 3px #FFF;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  transform-origin:  0% 50%;
+}
+.card-title-link:hover:after{  
+  transform: scaleX(1);
+}
+.card-repo-link{
+  display: block;
   color: #AAA;
+  width: fit-content;
   font-size: .85rem;
 }
-
-@media only screen and (max-width: 768px) {
-  .project-card {
-    width: 90%;
-  }
+.card-repo-link::after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px #AAA;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  transform-origin:  0% 50%;
+}
+.card-repo-link:hover:after{
+  transform: scaleX(1);
 }

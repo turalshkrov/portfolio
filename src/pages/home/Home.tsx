@@ -58,7 +58,7 @@ export default function Home() {
         <div className="section-title">
           <h2>Projects</h2>
         </div>
-        <div className="projects d-flex justify-content-center justify-content-md-between">
+        <div className="projects row justify-content-center">
           {
             projects.map(project => {
               return(
