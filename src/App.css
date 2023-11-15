@@ -15,6 +15,14 @@ section, main {
   font-size: 2.5rem;
   font-weight: 700;
 }
+.tool-item {
+  width: 22%;
+}
+
+.projects {
+  flex-wrap: wrap;
+}
+
 
 @media only screen and (max-width: 768px) {
   .section-title {
@@ -22,5 +30,27 @@ section, main {
   }
   .section-title h2 {
     font-size: 2rem;
+  }
+  .mh-100 {
+    min-height: 70vh;
+    padding-top: 4rem;
+  }
+  .greeting {
+    font-size: 2.5rem;
+  }
+  .home-about-text {
+    width: 100%;
+    font-size: 1rem;
+    letter-spacing: normal;
+  }
+  .tool-item {
+    width: 25%;
+  }
+  .tool-item p{
+    font-size: .75rem;
+  }
+  .tool-item img {
+    width: 60%;
+    border-radius: 10px;
   }
 }

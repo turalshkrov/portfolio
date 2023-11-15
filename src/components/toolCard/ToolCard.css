@@ -1,0 +1,10 @@
+.tool-item img {
+  width: 35%;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tool-item img {
+    width: 60%;
+  }
+}
