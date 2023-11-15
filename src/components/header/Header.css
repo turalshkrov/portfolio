@@ -3,7 +3,7 @@
   position: fixed !important;
   width: 100%;
   top: 0;
-  background-color: #09090a;
+  background-color: #000;
   z-index: 3;
 }
 .navbar-brand {

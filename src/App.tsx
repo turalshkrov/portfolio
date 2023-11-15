@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Contact from './components/contact/Contact';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Projects />
       <Contact />
     </Container>
+    <Footer />
   </div>
   )
 }
