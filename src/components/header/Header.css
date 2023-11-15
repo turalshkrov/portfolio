@@ -1,7 +1,7 @@
 .navbar {
   box-sizing: border-box;
   position: fixed !important;
-  width: 95%;
+  width: 100%;
   top: 0;
   background-color: #09090a;
   z-index: 3;

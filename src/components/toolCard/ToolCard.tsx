@@ -1,5 +1,9 @@
-import { ToolType } from '../../App'
 import './ToolCard.css'
+
+export type ToolType = {
+  title: string,
+  ['img-url']: string
+}
 
 export default function ToolCard(prop: { tool: ToolType }) {
   const { tool } = prop
