@@ -16,22 +16,22 @@ export default function Footer() {
             <div className="col-12">
               <h5 className="fw-bold align-left">SOCIALS</h5>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex justify-content-center justify-content-md-start">
               <a href="https://twitter.com/TuralSukurov4" target="_blank">
                 <FaTwitter size={20}/>
               </a>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex justify-content-center justify-content-md-start">
               <a href="https://github.com/turalshkrov" target="_blank">
                 <FaGithub size={20}/>
               </a>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex justify-content-center justify-content-md-start">
               <a href="https://www.linkedin.com/in/tural-shkrov/" target="_blank">
                 <FaLinkedinIn size={20}/>
               </a>
             </div>
-            <div className="col-3">
+            <div className="col-3 d-flex justify-content-center justify-content-md-start">
               <a href="https://www.instagram.com/tural.shkrov/" target="_blank">
                 <FaInstagram size={20}/>
               </a>
