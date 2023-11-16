@@ -7,14 +7,11 @@ export default function Contact() {
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
-    // @ts-ignore
-    emailjs.sendForm('service_c0t8iga', 'template_6kx9a6g', form.current, '3AzAwP5ty9bDdIdJU')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      })
-    form.current?.reset()
+    if (form.current) {
+      // @ts-ignore
+      emailjs.sendForm('service_c0t8iga', 'template_6kx9a6g', form.current, '3AzAwP5ty9bDdIdJU')
+      form.current?.reset()
+    }
   };
   return (
     <section id='contact'>
@@ -25,15 +22,15 @@ export default function Contact() {
         <Form ref={form} onSubmit={sendEmail} data-bs-theme="dark" className='col-10 col-md-10'>
           <Form.Group className='mb-3 mb-md-4'>
             <Form.Label className='fw-bold'>Your Name</Form.Label>
-            <Form.Control type='text' placeholder='Enter Your Name' className='p-3'></Form.Control>
+            <Form.Control name='user_name' type='text' placeholder='Enter Your Name' className='p-3' required></Form.Control>
           </Form.Group>
           <Form.Group className='mb-3 mb-md-4'>
             <Form.Label className='fw-bold'>Your Email</Form.Label>
-            <Form.Control type='email' placeholder='Enter Your Email' className='p-3'></Form.Control>
+            <Form.Control name='user_email' type='email' placeholder='Enter Your Email' className='p-3' required></Form.Control>
           </Form.Group>
           <Form.Group className='mb-3 mb-md-4'>
             <Form.Label className='fw-bold'>Your Message</Form.Label>
-            <Form.Control as='textarea' rows={3} placeholder='Enter Your Message' className='p-3'>
+            <Form.Control as='textarea' name='message' rows={3} placeholder='Enter Your Message' className='p-3' required>
             </Form.Control>
           </Form.Group>
           <Button variant="outline-light" type="submit">
