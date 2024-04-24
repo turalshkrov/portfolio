@@ -1,6 +1,12 @@
 {
   "projects": [
     {
+      "title": "Online Book DB",
+      "site-url": "https://alexandria-book.vercel.app/",
+      "repo-url": "https://github.com/turalshkrov/alexandria",
+      "img-url": "https://i.ibb.co/DGk3CTN/Screenshot-2024-04-24-160536.png"
+    },
+    {
       "title": "JS Calculator",
       "site-url": "https://shkrov-js-calculator.netlify.app/",
       "repo-url": "https://github.com/turalshkrov/JavaScript-calculator",
@@ -17,12 +23,6 @@
       "site-url": "https://omdb-movie-react.netlify.app/",
       "repo-url": "https://github.com/turalshkrov/react-movie-app",
       "img-url": "https://i.ibb.co/nrGDJL5/movies.jpg"
-    },
-    {
-      "title": "Weather App",
-      "site-url": "https://fabulous-cendol-25ce95.netlify.app/",
-      "repo-url": "https://github.com/turalshkrov/open-weather",
-      "img-url": "https://i.ibb.co/J5s49QP/weather.png"
     }
   ]
 }

@@ -9,28 +9,44 @@
       "img-url": "https://i.ibb.co/ThKxbJk/CSS3-logo-svg.png"
     },
     {
-      "title": "Bootstrap",
-      "img-url": "https://i.ibb.co/mNw8JW3/bootstrap-logo.png"
-    },
-    {
-      "title": "Figma",
-      "img-url": "https://i.ibb.co/yWBSdmq/668cccb3f734f342e07c0185e6d9a975.jpg"
-    },
-    {
       "title": "JavaScript",
       "img-url": "https://i.ibb.co/KmqKtxy/Java-Script-logo.png"
     },
     {
+      "title": "JQuery",
+      "img-url": "https://i.ibb.co/q7vD5KZ/jquery.png"
+    },
+    {
       "title": "TypeScript",
-      "img-url": "https://i.ibb.co/Nn30rb6/Typescript-logo.png"
+      "img-url": "https://i.ibb.co/ZhDD210/ts.webp"
     },
     {
       "title": "React",
       "img-url": "https://i.ibb.co/myCG2Hn/React.png"
     },
     {
+      "title": "Redux",
+      "img-url": "https://i.ibb.co/8scKYQ7/Redux.png"
+    },
+    {
+      "title": "Sass",
+      "img-url": "https://i.ibb.co/44C9hVf/Sass.png"
+    },
+    {
+      "title": "ESLint",
+      "img-url": "https://i.ibb.co/H2jKF9b/ESLint.png"
+    },
+    {
       "title": "Vite",
       "img-url": "https://i.ibb.co/x1kWsF0/Vitejs-logo.png"
+    },
+    {
+      "title": "Node JS",
+      "img-url": "https://i.ibb.co/2gcvG5h/node.png"
+    },
+    {
+      "title": "MongoDb",
+      "img-url": "https://i.ibb.co/KsMsLwc/mongodb.png"
     }
   ]
 }

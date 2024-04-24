@@ -15,9 +15,6 @@ section, main, footer {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.tool-item {
-  width: 22%;
-}
 .projects {
   flex-wrap: wrap;
 }
@@ -62,14 +59,10 @@ footer a {
     font-size: 1rem;
     letter-spacing: normal;
   }
-  .tool-item {
-    width: 25%;
-  }
   .tool-item p{
     font-size: .75rem;
   }
   .tool-item img {
     width: 60%;
-    border-radius: 10px;
   }
 }
